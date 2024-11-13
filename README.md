@@ -64,6 +64,8 @@ To run the analysis tutorial, you will need the following Python packages:
 - **celltypist**: For cell type annotation.
 - **sklearn**: For machine learning algorithms and clustering.
 - **umap**: For dimensionality reduction and visualization of high-dimensional data.
+- **celltypist**: For automated classification of cell types
+- **os**: To interact with the operating system
 ---
 
 ### Installation
