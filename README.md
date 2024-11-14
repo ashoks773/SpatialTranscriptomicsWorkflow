@@ -55,17 +55,29 @@ The analysis is based on the dataset from **Hepatocellular carcinoma (HCC) resec
 
 ## Getting Started
 ### Prerequisites
-To run the analysis tutorial, you will need the following Python packages:
-- **pandas**: For data manipulation.
+To run the analysis tutorial, you will need the following Python and R packages:
+#### Data Processing
 - **numpy**: For numerical operations.
+- **pandas**: For data manipulation.
 - **matplotlib**: For plotting and visualization.
 - **seaborn**: For plotting and visualization.
-- **scanpy**: For single-cell analysis and visualization.
-- **celltypist**: For cell type annotation.
 - **sklearn**: For machine learning algorithms and clustering.
-- **umap**: For dimensionality reduction and visualization of high-dimensional data.
-- **celltypist**: For automated classification of cell types
+- **umap-learn**: For dimensionality reduction.
+- **umap**: Alternative UMAP implementation for high-dimensional visualization.
+- **scanpy**: For single-cell data analysis and visualization.
 - **os**: To interact with the operating system
+
+#### Cell Type Annotations
+- **Seurat** (R): For comprehensive single-cell analysis, including annotation.
+- **celldex** (R): Provides reference data for cell type classification.
+- **SingleCellExperiment** (R): Data structure for single-cell analysis.
+- **celltypist**: Automated classification of cell types.
+- **azimuth** (R): Seurat-based tool for cell type annotation.
+- **scType**: Cell type annotation using marker genes.
+- **SingleR** (R): Correlation-based cell type annotation.
+
+#### R Integration in Python
+- **rpy2**: Interface to run R code within Python, essential for using R-based annotation methods.
 ---
 
 ### Installation
