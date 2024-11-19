@@ -19,35 +19,7 @@ The analysis is based on the dataset from **Hepatocellular carcinoma (HCC) resec
 - **Outputs**: Stored in the `data` folder.
 ---
 
-## Getting Started
-### Prerequisites
-To run the analysis tutorial, you will need the following Python and R packages:
-#### Data Processing
-- **numpy**: For numerical operations.
-- **pandas**: For data manipulation.
-- **matplotlib**: For plotting and visualization.
-- **seaborn**: For plotting and visualization.
-- **sklearn**: For machine learning algorithms and clustering.
-- **umap-learn**: For dimensionality reduction.
-- **umap**: Alternative UMAP implementation for high-dimensional visualization.
-- **scanpy**: For single-cell data analysis and visualization.
-- **os**: To interact with the operating system
-
-#### Cell Type Annotations
-- **Seurat** (R): For comprehensive single-cell analysis, including annotation.
-- **celldex** (R): Provides reference data for cell type classification.
-- **SingleCellExperiment** (R): Data structure for single-cell analysis.
-- **celltypist**: Automated classification of cell types.
-- **azimuth** (R): Seurat-based tool for cell type annotation.
-- **scType**: Cell type annotation using marker genes.
-- **SingleR** (R): Correlation-based cell type annotation.
-
-#### R Integration in Python
-- **rpy2**: Interface to run R code within Python, essential for using R-based annotation methods.
----
-  
 ## Steps in the Tutorial
-
 ### 1. Select and Download Dataset
 - Download the raw spatial transcriptomics data from **GEO** using the accession number **GSE238264**.
 - Extract and place the data in the `GSE238264_RAW` folder.
@@ -78,6 +50,33 @@ To run the analysis tutorial, you will need the following Python and R packages:
 - **Clustering**: Identify clusters of cells based on gene expression.
 - **Marker Gene Identification**: Differential gene expression to identify cluster-specific markers.
 - **Cell Type Annotation**: Use tools like `CellTypist` for automated cell type annotation.
+---
+
+## Getting Started
+### Prerequisites
+To run the analysis tutorial, you will need the following Python and R packages:
+#### Data Processing
+- **numpy**: For numerical operations.
+- **pandas**: For data manipulation.
+- **matplotlib**: For plotting and visualization.
+- **seaborn**: For plotting and visualization.
+- **sklearn**: For machine learning algorithms and clustering.
+- **umap-learn**: For dimensionality reduction.
+- **umap**: Alternative UMAP implementation for high-dimensional visualization.
+- **scanpy**: For single-cell data analysis and visualization.
+- **os**: To interact with the operating system
+
+#### Cell Type Annotations
+- **Seurat** (R): For comprehensive single-cell analysis, including annotation.
+- **celldex** (R): Provides reference data for cell type classification.
+- **SingleCellExperiment** (R): Data structure for single-cell analysis.
+- **celltypist**: Automated classification of cell types.
+- **azimuth** (R): Seurat-based tool for cell type annotation.
+- **scType**: Cell type annotation using marker genes.
+- **SingleR** (R): Correlation-based cell type annotation.
+
+#### R Integration in Python
+- **rpy2**: Interface to run R code within Python, essential for using R-based annotation methods.
 ---
 
 ### Installation
