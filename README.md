@@ -2,6 +2,7 @@
 
 **Spatial Transcriptomics Data Analysis Tutorial** provides a step-by-step guide to analyzing publicly available spatial transcriptomics datasets. This tutorial uses **Hepatocellular carcinoma (HCC) resection specimens** (Zhang et. al. 2023) and demonstrates how to load, preprocess, normalize, and visualize the data. The detailed tutorial from start to end is provided in notebook named `ST_Complete_Tutorial_AKS.ipynb`, and all data and outputs are stored in the `data` folder. 
 Addtional notebooks:
+- `Sample_HCC1R.ipynb` for Sample (HCC1R) specific quality filtering
 - `Exercise_Normalization_AKS.ipynb` for detailed Normalization
 - `Exercise_Clustering_AKS.ipynb` for detailed Clustering analysis
 - `Exercise_CellTypeAnnotation_AKS.ipynb` for detailed Cell Type Annotations
