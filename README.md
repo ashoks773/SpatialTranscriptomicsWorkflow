@@ -5,7 +5,7 @@
 - `Exercise_Normalization_AKS.ipynb` Normalization deep dive
 - `Exercise_Clustering_AKS.ipynb` Clustering analysis
 - `Exercise_CellTypeAnnotation_AKS.ipynb` Cell type annotation
-Also; additional scripts if required are placed in the 
+
 ---
 ## Overview
 This tutorial covers the following steps in spatial transcriptomics analysis:
