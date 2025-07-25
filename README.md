@@ -96,5 +96,5 @@ cd SpatialTranscriptomicsAnalysis
 ```
 
 ### Contact
-🤚 Important
-For any questions, please contact: 👉 Ashok K. Sharma; ashoks773@gmail.com
+Don’t hesitate to get in touch!
+📧 Email: compbiosharma@gmail.com **or** ashoks773@gmail.com
